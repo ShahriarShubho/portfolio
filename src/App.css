@@ -3,4 +3,8 @@
   background-color : #343A40
 }
 
-
+#inputID::placeholder {
+  color: #fff;
+  font-weight: bold;
+  opacity: 1;
+}
