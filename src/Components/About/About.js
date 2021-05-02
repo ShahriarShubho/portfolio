@@ -9,8 +9,8 @@ const About = () => {
         { id: 4, title: "Linkedin", text: "Jonathan_123" },
       ]
     return (
-        <div>
-            <h1>About Me</h1>
+        <div className="bg-dark">
+            <h1 className="text-center my-5">About Me</h1>
             <div className="row">
                 <div className="col-md-5">
                     <img className="img-fluid" src={AboutImg} alt=""/>

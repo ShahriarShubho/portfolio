@@ -7,7 +7,7 @@ const Contract = () => {
   
     return (
         <div className="container">
-            <h3>Contract Me</h3>
+            <h1 className="text-center mb-5">Contract Me</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
         <div className="col-md-6">
