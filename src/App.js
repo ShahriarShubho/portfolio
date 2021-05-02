@@ -1,25 +1,42 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header/Header';
-import Services from './Components/Services/Services';
-import About from './Components/About/About';
-import Skill from './Components/Skill/Skill';
-import Contract from './Components/Contract/Contract';
-import Projects from './Components/Projects/Projects';
-import Footer from './Components/Footer/Footer';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Components/Home/Home/Home";
+import Projects from "./Components/Home/Projects/Projects";
+import NotFound from "./Components/NotFound/NotFound";
+import Blogs from "./Components/Home/Blogs/Blogs";
+import Contract from "./Components/Home/Contract/Contract";
 
 function App() {
-  
   return (
     <div className="App">
-      <Header/>
-      <Projects/>
-      <Services/>
-      <About/>
-      <Skill/>
-      <Contract/>
-      <Footer/>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/projects">
+         <Projects/>
+        </Route>
+        <Route path="/contract">
+         <Contract/>
+        </Route>
+        <Route path="/blogs">
+         <Blogs/>
+        </Route>
+        <Route path="*">
+         <NotFound/>
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
     </div>
   );
 }

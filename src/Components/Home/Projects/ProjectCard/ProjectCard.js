@@ -2,18 +2,16 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 const ProjectCard = ({projects}) => {
-    const {title, image, description} = projects
+    const {title, image, description, technology} = projects
     console.log(projects)
     return (
-        <div className="col-md-4 text-dark mb-5">
+        <div className="col-md-6 text-dark mb-5">
             <Card>
     <Card.Img className="img-fluid rounded" variant="top" src={image} />
     <Card.Body>
       <Card.Title>{title}</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
+      <Card.Text>{description}</Card.Text>
+      <strong>{technology}</strong>
     </Card.Body>
     <Card.Footer className="text-center">
     <Card.Link href="#">Live site</Card.Link>

@@ -8,9 +8,9 @@ import {
 
 const Footer = () => {
     return (
-        <div className="container text-center">
-            <h1 className="text-center mt-5">Shahriar Hoq Shubho</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nesciunt in reiciendis optio!</p>
+        <div className="bg-dark text-center  py-4">
+            <h1 className="text-center">Shahriar Shubho</h1>
+            <p className="container">Hi Thanks for visit my website. That's All of you need to know about me And You Can connect with me given the bellow social media website</p>
             <div>
             <FaFacebookF className="footerIcon" />
             <FaTwitter className="footerIcon" />

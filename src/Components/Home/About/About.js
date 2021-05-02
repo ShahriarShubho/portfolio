@@ -1,19 +1,19 @@
 import React from 'react';
-import AboutImg from '../../images/remove-bg.png'
+import AboutImg from '../../../images/remove-bg.png'
 
 const About = () => {
     const contractData = [
-        { id: 1, title: "Name:", text: "Jonathan Doe" },
-        { id: 2, title: "Email:", text: "example@domain.com" },
-        { id: 3, title: "Phone:", text: "+1 023 454 345" },
-        { id: 4, title: "Linkedin", text: "Jonathan_123" },
+        { id: 1, title: "Name:", text: "Shahriar Shubho" },
+        { id: 2, title: "Email:", text: "shubha.shahriar@gmail.cpm" },
+        { id: 3, title: "Phone:", text: "+8801817510325" },
+        { id: 4, title: "Linkedin", text: "https://www.linkedin.com/in/shahriar-hoq-shubho-a869121b3/" },
       ]
     return (
-        <div className="bg-dark">
-            <h1 className="text-center my-5">About Me</h1>
+        <div id="about" className="bg-dark">
+            <h1 className="text-center py-5">About Me</h1>
             <div className="row">
                 <div className="col-md-5">
-                    <img className="img-fluid" src={AboutImg} alt=""/>
+                    <img className="img-fluid about-img" src={AboutImg} alt=""/>
                 </div>
                 <div className="col-md-7">
                     <h2>Hi There</h2>

@@ -13,3 +13,16 @@
   font-size: 40px;
   margin : 10px;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.about-img{
+  margin-left: -50px;
+}
+.serviceCard:hover{
+  background-color: rgb(131, 124, 124);
+  transform: translateY(-5px);
+  transition-duration: 1.5s;
+}

@@ -13,7 +13,8 @@ const Skill = () => {
         { name: "expressJS",parentage: 65, color : "primary" },
     ]
   return (
-    <section className="py-5 container">
+    <section id="skill" className="bg-dark">
+      <div className="py-5 container">
       <div className="text-center">
         <h3>I am expert on</h3>
         <p>
@@ -27,6 +28,7 @@ const Skill = () => {
             <h3 className="mt-3">{skill.name}</h3>
         <ProgressBar variant={`${skill.color}`} now={skill.parentage}  label={`${skill.parentage}%`} />
         </div>))}
+      </div>
       </div>
     </section>
   );

@@ -48,14 +48,16 @@ const Services = () => {
         },
       ]
     return (
-        <div className="container">
-            <h1 className="text-center my-5">My Services</h1>
+      <section className="bg-dark">
+        <div id="services" className="container">
+            <h1 className="text-center py-5">My Services</h1>
             <div className="row">
                 {
                     serviceData.map(service => <ServiceDetails services={service}></ServiceDetails>)
                 }
             </div>
         </div>
+        </section>
     );
 };
 
