@@ -6,14 +6,14 @@ const About = () => {
         { id: 1, title: "Name:", text: "Shahriar Shubho" },
         { id: 2, title: "Email:", text: "shubha.shahriar@gmail.cpm" },
         { id: 3, title: "Phone:", text: "+8801817510325" },
-        { id: 4, title: "Linkedin", text: "https://www.linkedin.com/in/shahriar-hoq-shubho-a869121b3/" },
+        { id: 4, title: "GitHub", text: "https://github.com/ShahriarShubho" },
       ]
     return (
         <div id="about" className="bg-dark">
             <h1 className="text-center py-5">About Me</h1>
             <div className="row">
                 <div className="col-md-5">
-                    <img className="img-fluid about-img" src={AboutImg} alt=""/>
+                    <img className="img-fluid about-img" src={AboutImg} alt="aboutImage"/>
                 </div>
                 <div className="col-md-7">
                     <h2>Hi There</h2>

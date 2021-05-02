@@ -11,7 +11,7 @@ const Banner = () => {
                 <a href="https://drive.google.com/uc?export=download&id=1W_haJK7OoFOh8YpHc6SB_NjV5VAvt_m7"><button className="btn btn-info mx-3">Download CV</button></a>
             </div>
             <div className="col-md-5">
-                <img className="img-fluid h-100" src={bannerImg} alt=""/>
+                <img className="img-fluid h-100" src={bannerImg} alt="My_Banner_Image"/>
             </div>
         </section>
     );
