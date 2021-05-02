@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -8,13 +9,13 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto p-2 font-weight-bold text-light">
-            <Nav.Link className="text-light" href="home">Home</Nav.Link>
-            <Nav.Link className="text-light" href="home#services">Services</Nav.Link>
-            <Nav.Link className="text-light" href="blogs">Blogs</Nav.Link>
-            <Nav.Link className="text-light" href="projects">Project</Nav.Link>
-            <Nav.Link className="text-light" href="home#skill">Skill</Nav.Link>
-            <Nav.Link className="text-light" href="home#about">About</Nav.Link>
-            <Nav.Link className="text-light" href="contract">Contract</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="home">Home</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="home#services">Services</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="blogs">Blogs</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="projects">Project</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="home#skill">Skill</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="home#about">About</Nav.Link>
+            <Nav.Link as={Link} className="text-light" to="contract">Contract</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

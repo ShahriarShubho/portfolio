@@ -18,8 +18,7 @@ const Skill = () => {
       <div className="text-center">
         <h3>I am expert on</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
-          nihil.
+          Basically I'm a MERN(MongoDB, ExpressJs, React, NodeJS) Developer. Because I love Javascript. It taste more well than Biriyani for me.
         </p>
       </div>
     <div className="row">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ServiceDetails = ({services}) => {
-    const {icon, heading} = services
+    const {icon, heading, description} = services
     return (
         <div className="col-md-4">
             <div className="bordered shadow-lg p-3 mb-3 serviceCard">
@@ -11,7 +11,7 @@ const ServiceDetails = ({services}) => {
                 </div>
                 <div>
                     <h5>{heading}</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, odit.</p>
+                    <p>{description}</p>
                 </div>
             </div>
             </div>

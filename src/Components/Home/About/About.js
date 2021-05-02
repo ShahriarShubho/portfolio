@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="col-md-7">
                     <h2>Hi There</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem, nihil voluptate nobis optio tempora veniam tempore saepe iusto temporibus? Alias quo ratione magnam inventore.</p>
+                    <p>This Shahriar Shubho, You can call me Shubho, I,m a full-stack developer. Specially MERN Developer. What you know about me, I put the some answer below, You may like it. </p>
                     <div className='row'>
                         {contractData.map(data => (
                         <div className="col-md-6 col-sm-6">
