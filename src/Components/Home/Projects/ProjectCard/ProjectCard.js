@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ProjectCard.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ProjectCard = ({projects}) => {
+  useEffect(() => {
+    AOS.init({duration : 2000});
+  },[])
     const {title, image, description, technology, liveSite, clint} = projects
     console.log(projects)
     return (
-        <div className="col-md-4 text-dark mb-5">
+        <div className="col-md-4 text-dark mb-5" data-aos="zoom-in">
           <h3 className="text-center text-white">{title}</h3>  
           <div className="boxes">
           <img className="img-fluid h-100" src={image} alt={title}/>

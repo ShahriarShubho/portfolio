@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ProgressBar } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skill = () => {
+  useEffect(() => {
+    AOS.init({duration : 2000});
+  },[])
     const skillInfo = [
         { name: "HTML",parentage: 90, color : "primary" },
         { name: "CSS",parentage: 80, color : "success" },
@@ -14,7 +19,7 @@ const Skill = () => {
     ]
   return (
     <section id="skill" className="bg-dark">
-      <div className="py-5 container">
+      <div data-aos="fade-up" className="py-5 container">
       <div className="text-center">
         <h3>I am expert on</h3>
         <p>

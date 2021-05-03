@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AboutImg from '../../../images/remove-bg.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({duration : 2000});
+      },[])
     const contractData = [
         { id: 1, title: "Name:", text: "Shahriar Shubho" },
         { id: 2, title: "Email:", text: "shubha.shahriar@gmail.cpm" },
@@ -12,17 +17,19 @@ const About = () => {
         <div id="about" className="bg-dark">
             <h1 className="text-center py-5">About Me</h1>
             <div className="row">
-                <div className="col-md-5">
+                <div data-aos="fade-left" className="col-md-5">
                     <img className="img-fluid about-img" src={AboutImg} alt="aboutImage"/>
                 </div>
-                <div className="col-md-7">
+                <div data-aos="fade-right" className="col-md-7">
                     <h2>Hi There</h2>
                     <p>This Shahriar Shubho, You can call me Shubho, I,m a full-stack developer. Specially MERN Developer. What you know about me, I put the some answer below, You may like it. </p>
                     <div className='row'>
                         {contractData.map(data => (
                         <div className="col-md-6 col-sm-6">
+                            <div className="ml-2">
                             <h3>{data.title}</h3>
                             <p>{data.text}</p>
+                            </div>
                         </div>))}
                     </div>
                 </div>

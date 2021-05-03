@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useForm } from "react-hook-form";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Contract = () => {
+  useEffect(() => {
+    AOS.init({duration : 2000});
+  },[])
   const contractData = [
     {
       icon: "A",
@@ -23,15 +29,18 @@ const Contract = () => {
     const onSubmit = data => console.log(data);
   
     return (
-        <div id="contract" className="container">
+      <section id="contract">
+        <div data-aos="zoom-in" className="container">
             <h1 className="text-center my-5">Contract Me</h1>
             <div className="row">
               {contractData.map(contract => 
               <div className="col-md-4 text-center">
-                <div className=" bordered p-3 shadow-lg">
+                  <div className="ml-2">
+                  <div className=" bordered p-3 shadow-lg">
                 <h5>{contract.title}</h5>
                 <p>{contract.text}</p>
               </div>
+                  </div>
               </div>)}
             </div>
 
@@ -51,6 +60,7 @@ const Contract = () => {
       <input className="btn btn-primary w-25 bt-2 mb-5" type="submit" />
     </form>
         </div>
+        </section>
     );
 };
 
