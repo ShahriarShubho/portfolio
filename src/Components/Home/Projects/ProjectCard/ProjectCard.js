@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './ProjectCard.css'
 
 const ProjectCard = ({projects}) => {
-    const {title, image, description, technology, liveSite, clint, server} = projects
+    const {title, image, description, technology, liveSite, clint} = projects
     console.log(projects)
     return (
         <div className="col-md-4 text-dark mb-5">
@@ -15,8 +14,8 @@ const ProjectCard = ({projects}) => {
             <p>{description}</p>
             <strong>Technology : {technology}</strong>
               <div className="d-flex justify-content-around">
-              <a href={liveSite} target="_blank">Live Site</a>
-              <a href={clint} target="_blank">Github</a>
+              <a href={liveSite} target="_blank" rel="noreferrer">Live Site</a>
+              <a href={clint} target="_blank" rel="noreferrer">Github</a>
               </div>
           </div>
           </div>  
