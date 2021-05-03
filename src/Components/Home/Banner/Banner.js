@@ -3,7 +3,7 @@ import bannerImg from '../../../images/bg-remove.png'
 
 const Banner = () => {
     return (
-        <section className=" row">
+        <section className="row">
             <div className="col-md-6 offset-1">
                 <h1 className="mt-5 pt-5">Hello <br/> This is Shahriar Shubho </h1>
                 <h3>A full-Stack web Developer</h3>

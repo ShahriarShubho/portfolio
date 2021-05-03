@@ -26,3 +26,12 @@
   transform: translateY(-5px);
   transition-duration: 1.5s;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbarr{
+  position: sticky !important;
+  z-index: 999;
+}

@@ -1,0 +1,33 @@
+.boxes{
+    height : 450px;
+    position: relative;
+    overflow : hidden;
+}
+
+.project-container{
+    
+    background-color : rgba(52, 54, 64, 0.8);
+    color : white;
+    position : absolute;
+    top : -100%;
+    left : 0;
+    height : 100%;
+    width: 100%;
+    padding : 15px;
+    box-sizing: border-box;
+    transition: all 0.5s;   
+}
+
+.project-container p {
+    font-size: 16px;
+}
+.project-container strong {
+    font-size: 16px;
+}
+.project-container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.boxes:hover .project-container{
+    top: 0;
+}
