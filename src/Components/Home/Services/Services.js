@@ -54,9 +54,9 @@ const Services = () => {
         },
       ]
     return (
-      <section id="services" className="bg-dark">
+      <section id="services" className="bg-dark pt-5">
         <div className="container">
-            <h1 className="text-center py-5">My Services</h1>
+            <h1 className="text-center pb-5">My Services</h1>
             <div className="row">
                 {
                     serviceData.map(service => <ServiceDetails services={service}></ServiceDetails>)

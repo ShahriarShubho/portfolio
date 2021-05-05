@@ -30,8 +30,3 @@
 html{
   scroll-behavior: smooth;
 }
-
-.navbarr{
-  position: sticky !important;
-  z-index: 999;
-}
