@@ -14,7 +14,7 @@ const About = () => {
     { id: 4, title: "GitHub", text: "https://github.com/ShahriarShubho" },
   ];
   return (
-    <div id="about" className="bg-dark">
+    <div id="about" className="bg-color">
       <h1 className="text-center py-5">About Me</h1>
       <div className="row">
         <div data-aos="fade-left" className="col-md-5">

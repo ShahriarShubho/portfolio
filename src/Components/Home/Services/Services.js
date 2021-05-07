@@ -54,7 +54,7 @@ const Services = () => {
         },
       ]
     return (
-      <section id="services" className="bg-dark pt-5">
+      <section id="services" className="bg-color pt-5">
         <div className="container">
             <h1 className="text-center pb-5">My Services</h1>
             <div className="row">

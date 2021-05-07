@@ -1,6 +1,6 @@
 .App {
   color : white;
-  background-color : #4a5764
+  background-color : #405366
 }
 
 #inputID::placeholder {
@@ -10,7 +10,7 @@
 }
 
 .footerIcon{
-  font-size: 40px;
+  font-size: 30px;
   margin : 10px;
 }
 *{
@@ -29,4 +29,18 @@
 
 html{
   scroll-behavior: smooth;
+}
+
+.bg-color{
+  background-color : rgb(32, 48, 63);
+}
+
+h1{
+  color: #D8B31C;
+  font-family: monospace;
+  font-weight: bold;
+}
+.typical{
+  color: rgb(177, 57, 97);
+  font-family: monospace;
 }

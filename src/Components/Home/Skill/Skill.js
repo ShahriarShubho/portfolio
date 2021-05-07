@@ -18,10 +18,10 @@ const Skill = () => {
         { name: "expressJS",parentage: 65, color : "primary" },
     ]
   return (
-    <section id="skill" className="bg-dark">
+    <section id="skill" className="">
       <div data-aos="fade-up" className="py-5 container">
       <div className="text-center">
-        <h3>I am expert on</h3>
+        <h3 className="text-warning">I am expert on</h3>
         <p>
           Basically I'm a MERN(MongoDB, ExpressJs, React, NodeJS) Developer. Because I love Javascript. It taste more well than Biriyani for me.
         </p>

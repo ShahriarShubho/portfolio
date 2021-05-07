@@ -12,11 +12,11 @@ const ServiceDetails = ({services}) => {
         <div data-aos="zoom-out" className="col-md-4">
             <div className="bordered shadow-lg p-3 mb-3 serviceCard">
             <div>
-                <div>
+                <div className="text-center">
                     <h2>{icon}</h2>
                 </div>
                 <div>
-                    <h5>{heading}</h5>
+                    <h5 className="text-center">{heading}</h5>
                     <p>{description}</p>
                 </div>
             </div>

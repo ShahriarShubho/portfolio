@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, Button } from 'react-bootstrap';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
@@ -22,6 +22,7 @@ const NavBar = () => {
             <Nav.Link as={Link} className="text-light" to="skill">Skill</Nav.Link>
             <Nav.Link as={Link} className="text-light" to="about">About</Nav.Link>
             <Nav.Link as={Link} className="text-light" to="contract">Contract</Nav.Link>
+            <Nav.Link as={Button}  className="text-light bg-info" target="_blank" href="https://drive.google.com/file/d/1cTfIG1nqH7-_jLRl1myFeh-35cIgswnI/view?usp=sharing">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
