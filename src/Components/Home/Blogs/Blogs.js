@@ -7,18 +7,18 @@ import BlogsCard from "./BlogsCard/BlogsCard";
 const Blogs = () => {
   const blogsInfo = [
     {title: 'What is JavaScript',
-     description: 'A complete solution of JavaScript over view continue to read....',
+     description: 'A complete solution of JavaScript overview. continue to read....',
      img : JavaScript,
      link : 'https://shahriar-shubho.medium.com/javascript-overview-2f3ac6ccdd58'
 
     },
     {title: 'JavaScript Error Handling',
-     description: 'A complete solution of JavaScript over view continue to read....',
+     description: 'Sometime we face errors. How can solve it. continue to read....',
      img : Error,
      link : 'https://shahriar-shubho.medium.com/javascript-error-handling-80c60cef790f'
     },
     {title: 'React Overview',
-     description: 'A complete solution of JavaScript over view continue to read....',
+     description: 'A complete solution of React overview. continue to read....',
      img : ReactBlog,
      link: 'https://shahriar-shubho.medium.com/react-overview-30f12d58f9cc'
     },

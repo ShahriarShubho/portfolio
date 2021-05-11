@@ -41,14 +41,14 @@ const Banner = () => {
             <FaGithub className="footerIcon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/shahriar-hoq-shubho-a869121b3/"
+            href="https://www.linkedin.com/in/shahriar-hoq-shubho/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin className="footerIcon text-primary" />
           </a>
           <a
-            href="https://twitter.com/programmershub1"
+            href="https://twitter.com/HoqShubho"
             target="_blank"
             rel="noreferrer"
           >

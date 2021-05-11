@@ -30,7 +30,7 @@ const Projects = () => {
             description : "It is a ride sharing website where you can search for places to visit and can see the description of the spectacular places. Users can read the description of the places and click Booking to make a booking for that place and fill up a form containing his booking information. After clicking start booking, he/she can see his/her booking along with a google map For confirmation booking user sing up email or google",
             technology : "HTML5, CSS3, Bootstrap, React, Bootstrap Font Awesome, Firebase",
             image : Riders,
-            liveSite : "https://wonderful-pare-c9a390.netlify.app/",
+            liveSite : "https://safer-streets-rider.netlify.app/",
             clint: "https://github.com/ShahriarShubho/safer-streets-riders"
         },
         {
@@ -38,13 +38,29 @@ const Projects = () => {
             description : "Prime sports team is is team checker website. In this website you can show more team in primer league. and you can show details of this them dynamically. And You can coonnect the the official facebook, tweeter and youtube",
             technology : "HTML5, CSS3, Bootstrap, React, Bootstrap",
             image : Sports,
-            liveSite : "https://6048f1245d45440a4768976c--ecstatic-jepsen-9860eb.netlify.app/",
+            liveSite : "https://premier-sports-team.netlify.app/",
             clint : "https://github.com/ShahriarShubho/primer-sports-team"
-        }
+        },
+        {
+            title : "Primer Sports",
+            description : "Prime sports team is is team checker website. In this website you can show more team in primer league. and you can show details of this them dynamically. And You can coonnect the the official facebook, tweeter and youtube",
+            technology : "HTML5, CSS3, Bootstrap, React, Bootstrap",
+            image : Sports,
+            liveSite : "https://premier-sports-team.netlify.app/",
+            clint : "https://github.com/ShahriarShubho/primer-sports-team"
+        },
+        {
+            title : "Primer Sports",
+            description : "Prime sports team is is team checker website. In this website you can show more team in primer league. and you can show details of this them dynamically. And You can coonnect the the official facebook, tweeter and youtube",
+            technology : "HTML5, CSS3, Bootstrap, React, Bootstrap",
+            image : Sports,
+            liveSite : "https://premier-sports-team.netlify.app/",
+            clint : "https://github.com/ShahriarShubho/primer-sports-team"
+        },
     ];
     return (
         <section id="projects" className="pt-5">
-        <div className="container">
+        <div className="container-fluid">
             <h1 className="text-center mb-5">My projects</h1>
             <div className="row">
             {

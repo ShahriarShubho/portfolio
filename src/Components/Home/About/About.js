@@ -9,7 +9,7 @@ const About = () => {
   }, []);
   const contractData = [
     { id: 1, title: "Name:", text: "Shahriar Shubho" },
-    { id: 2, title: "Email:", text: "shubha.shahriar@gmail.cpm" },
+    { id: 2, title: "Email:", text: "shubha.shahriar@gmail.com" },
     { id: 3, title: "Phone:", text: "+8801817510325" },
     { id: 4, title: "GitHub", text: "https://github.com/ShahriarShubho" },
   ];
@@ -25,16 +25,18 @@ const About = () => {
           />
         </div>
         <div data-aos="fade-right" className="col-md-7">
+          <div className="ml-3">
           <h2>Hi There</h2>
           <p>
             This Shahriar Shubho, You can call me Shubho, I,m a full-stack
             developer. Specially MERN Developer. What you know about me, I put
             the some answer below, You may like it.{" "}
           </p>
+          </div>
           <div className="row">
             {contractData.map((data) => (
               <div className="col-md-6 col-sm-6">
-                <div className="ml-2">
+                <div className="ml-3">
                   <h3>{data.title}</h3>
                   <p>{data.text}</p>
                 </div>

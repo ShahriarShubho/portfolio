@@ -31,7 +31,7 @@ const Contract = () => {
     {
       icon: "A",
       title: "Linkedin",
-      text: "https://www.linkedin.com/in/shahriar-hoq-shubho-a869121b3/",
+      text: "https://www.linkedin.com/in/shahriar-hoq-shubho",
     },
   ];
 
@@ -56,19 +56,12 @@ const Contract = () => {
         swal("Good job!", "Failed to send message! Please try again later.", "error");
       }
     );
-
-    // emailjs.sendForm('service_7hs4xnv', 'template_7zvqa0i', e.target, 'user_oDzygrpW3WjZUvySGDqhe')
-    // .then((result) => {
-    //     console.log(result.text);
-    // }, (error) => {
-    //     console.log(error.text);
-    // });
   };
 
   return (
-    <section id="contract">
+    <section id="contract" className="bg-color">
       <div data-aos="zoom-in" className="container">
-        <h1 className="text-center my-5">Contract Me</h1>
+        <h1 className="text-center py-5">Contract Me</h1>
         <div className="row">
           {contractData.map((contract) => (
             <div className="col-md-4 text-center">

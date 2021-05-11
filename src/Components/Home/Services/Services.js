@@ -1,11 +1,8 @@
 import React from 'react';
 import {
-    FaGithub,
-    FaCamera,
+    FaCode,
+    FaMobileAlt,
     FaCircleNotch,
-    FaApple,
-    FaFileVideo,
-    FaSearchDollar,
   } from "react-icons/fa";
 import ServiceDetails from './ServiceDetails/ServiceDetails';
 
@@ -13,48 +10,28 @@ const Services = () => {
     const serviceData = [
         {
           id: 1,
-          icon: <FaGithub className="commonIcons" />,
+          icon: <FaCode className="commonIcons" />,
           heading: "Web Development",
-          description : "A full-stack web application I provide. every kind of website I can create"
-        },
-        {
-          id: 2,
-          icon: <FaCamera className="commonIcons" />,
-          heading: "Photography",
-          description : "Photography is the adventuring part in my skill, I do it for hobby"
-        },
-        {
-          id: 3,
-          icon: <FaCircleNotch className="commonIcons" />,
-          heading: "Web Design",
-          description : "Web Design is the main part for an website, It's satisfy user experience"
-
-
+          description : "A MERN Stack web application I provide. every kind of website I can create"
         },
         {
           id: 4,
-          icon: <FaApple className="commonIcons" />,
+          icon: <FaMobileAlt className="commonIcons" />,
           heading: "Responsive Development",
           description: "Responsive web development is most import cause user visit site PC,Mobile or Tab"
 
         },
         {
-          id: 5,
-          icon: <FaFileVideo className="commonIcons" />,
-          heading: "Video Editing",
-          description : "Now a days video programming is the most common function"
+          id: 3,
+          icon: <FaCircleNotch className="commonIcons" />,
+          heading: "Web Design",
+          description : "Web Design is the main part for an website, It's satisfy user experience and attract user."
 
-        },
-        {
-          id: 6,
-          icon: <FaSearchDollar className="commonIcons" />,
-          heading: "SEO Expert",
-          description : "A web how to know people its emblements seo"
 
         },
       ]
     return (
-      <section id="services" className="bg-color pt-5">
+      <section id="services" className="bg-color py-5">
         <div className="container">
             <h1 className="text-center pb-5">My Services</h1>
             <div className="row">

@@ -11,7 +11,7 @@ const ProjectCard = ({projects}) => {
     console.log(projects)
     return (
         <div className="col-md-4 text-dark mb-5" data-aos="zoom-in">
-          <h3 className="text-center text-white">{title}</h3>  
+          <h3 className="text-center text-primary">{title}</h3>  
           <div className="boxes">
           <img className="img-fluid h-100" src={image} alt={title}/>
           <div className="project-container">
