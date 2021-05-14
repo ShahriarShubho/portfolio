@@ -10,7 +10,7 @@ const Banner = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <section className="row section-container bg-color">
+    <section style={{marginRight: '0px'}} className="row bg-color">
       <div className="col-md-6 offset-1" data-aos="fade-right">
         <h1 className="pt-5">
           Hello <br /> This is Shahriar Shubho{" "}
