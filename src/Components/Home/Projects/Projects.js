@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
             title : "Dentist Care",
-            description : "It is a doctors chamber website. Patients get appointments by the date. first patient show all the service available in appointment page. they booking a appointment by giving some information. patients and doctor can sign up and log in to this website using google or email password.Here are different dashboards for patient and doctor doctor can see all appointments of the date booked by patient. he/she can show all patient and add a doctor.",
+            description : "It is a doctors chamber website. Patients get appointments by the date. first patient show all the service available in appointment page. they booking a appointment. Patients and doctor can sign up and log in to this website using google or email password.Here are different dashboards for patient and doctor doctor can see all appointments of the date booked by patient. he/she can show all patient and add a doctor.",
             technology : "HTML5, CSS3, Bootstrap, React, Bootstrap. Font Awesome NodeJS, Express JS, MongoDB",
             image : DentistCare,
             liveSite : "https://dentist-care.netlify.app/",
