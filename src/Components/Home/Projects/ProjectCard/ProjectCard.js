@@ -11,6 +11,7 @@ const ProjectCard = ({projects}) => {
     console.log(projects)
     return (
         <div className="col-md-4 text-dark mb-5" data-aos="zoom-in">
+          <div className="rounded shadow-lg">
           <h3 className="text-center text-color mb-3">{title}</h3>  
           <div className="boxes">
           <img className="img-fluid h-100" src={image} alt={title}/>
@@ -24,6 +25,7 @@ const ProjectCard = ({projects}) => {
               </div>
           </div>
           </div>  
+        </div>
         </div>
     );
 };
