@@ -10,7 +10,7 @@ const ProjectCard = ({ projects }) => {
   const { title, image, description, technology, liveSite, clint } = projects;
   console.log(projects);
   return (
-    <div className="col-md-4 text-dark mb-5" data-aos="zoom-in">
+    <div className="col-md-6 col-lg-4 text-dark mb-5" data-aos="zoom-in">
       <h3 className="text-center text-color mb-3">{title}</h3>
       <div className="boxes rounded shadow-lg">
         <img className="img-fluid h-100" src={image} alt={title} />
@@ -33,17 +33,3 @@ const ProjectCard = ({ projects }) => {
 };
 
 export default ProjectCard;
-
-/* <Card>
-<Card.Img className="img-fluid rounded" variant="top" src={image} alt={`${title}`}/>
-<Card.Body>
-  <Card.Title>{title}</Card.Title>
-  <Card.Text>{description}</Card.Text>
-  <strong>{technology}</strong>
-</Card.Body>
-<Card.Footer className="text-center">
-<Card.Link target="_blank" href={liveSite}>Live site</Card.Link>
-<Card.Link target="_blank" href={clint}>GitHub(Clint)</Card.Link>
-<Card.Link target="_blank" href={server}>GitHub(Server)</Card.Link>
-</Card.Footer>
-</Card> */

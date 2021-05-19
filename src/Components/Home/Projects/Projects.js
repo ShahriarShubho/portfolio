@@ -11,8 +11,8 @@ const Projects = () => {
     const projectData = [
         {
             title : "Capture Movements",
-            description : "It is a photography services website. Users and Admin can sign up and log in to this website using google.Here are different dashboards for User and Admin No one can access some page without log in. Users can place orders, see his order list, and give a review of a service Admin can see all orders of the users. They can add a new service and make a new admin by providing the new admins email.",
-            Technology : "HTML5, CSS3, Bootstrap, React, Bootstrap. Font Awesome NodeJS, Express JS, MongoDB",
+            description : "It is a photography services website. Users and Admin can log in to this website using google.Here are different dashboards for User and Admin. Users can place orders, see his order, give a review of a service. Admin can see all orders of the users. They can add a new service and make a new admin by providing the new admins email.",
+            technology : "React, React-Router, HTML5, CSS3, Bootstrap, Font Awesome NodeJS, Express JS, MongoDB",
             image : CaptureMovements,
             liveSite : "https://capture-moments-3a53d.web.app/",
             clint : "https://github.com/ShahriarShubho/capture-movements",
@@ -21,7 +21,7 @@ const Projects = () => {
         {
             title : "HappyElectro",
             description : "It is an electric product selling website. Which serves electric product user can buy product and see only his order. This website some pages are private so for access user and admin sing up with google and log in. Admin see all the order given by user, admin can delete any product and add any product",
-            technology : "HTML5, CSS3, Bootstrap, React, Bootstrap. Bootstrap-Icon, NodeJS, Express JS, MongoDB",
+            technology : "React, React-Router, React-Hooks, HTML5, CSS3, Bootstrap, Bootstrap-Icon, NodeJS, Express JS, MongoDB",
             image : HappyElectro,
             liveSite : "https://happy-electro.web.app/",
             clint : "https://github.com/ShahriarShubho/happy-electro-cline-site-project",
@@ -29,16 +29,16 @@ const Projects = () => {
         },
         {
             title : "Dentist Care",
-            description : "It is a doctors chamber website. Patients get appointments by the date. first patient show all the service available in appointment page. they booking a appointment. Patients and doctor can sign up and log in to this website using google or email password.Here are different dashboards for patient and doctor doctor can see all appointments of the date booked by patient. he/she can show all patient and add a doctor.",
-            technology : "HTML5, CSS3, Bootstrap, React, Bootstrap. Font Awesome NodeJS, Express JS, MongoDB",
+            description : "It is a doctors chamber website. Patients get appointments by the date. Patient show all the service and booking a appointment. Patients and doctor can log in to this website using google or email password.Here are different dashboards for patient and doctor. doctor can see all appointments of the date booked by patient. he/she can show all patient and add a doctor.",
+            technology : "React, React-Router, HTML5, CSS3, Bootstrap, Font Awesome NodeJS, ExpressJS, MongoDB",
             image : DentistCare,
             liveSite : "https://dentist-care.netlify.app/",
             clint : "https://github.com/ShahriarShubho/dentist-care-client"
         },
         {
             title : "Safer Streets Rider",
-            description : "It is a ride sharing website where you can search for places to visit and can see the description of the spectacular places. Users can read the description of the places and click Booking to make a booking for that place and fill up a form containing his booking information. After clicking start booking, he/she can see his/her booking along with a google map For confirmation booking user sing up email or google",
-            technology : "HTML5, CSS3, Bootstrap, React, Bootstrap Font Awesome, Firebase",
+            description : "It is a ride sharing website where you can search for places to visit and can see the description of the spectacular places. Users can booking the place and fill up a form containing his booking information. After clicking start booking, he/she can see his/her booking along with a google map For confirmation booking user sing up email or google",
+            technology : "React, React-Hooks, HTML5, CSS3, Bootstrap, Font Awesome, Firebase",
             image : Riders,
             liveSite : "https://safer-streets-rider.netlify.app/",
             clint: "https://github.com/ShahriarShubho/safer-streets-riders"
