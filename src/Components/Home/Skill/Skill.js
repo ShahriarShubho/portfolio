@@ -12,10 +12,15 @@ const Skill = () => {
         { name: "CSS",parentage: 80, color : "success" },
         { name: "JavaScript",parentage: 70, color : "warning" },
         { name: "React",parentage: 75, color : "primary" },
-        { name: "NodeJS",parentage: 50, color : "danger" },
-        { name: "MongoDB",parentage: 60, color : "success" },
-        { name: "Bootstrap",parentage: 80, color : "info" },
-        { name: "expressJS",parentage: 65, color : "primary" },
+        { name: "Bootstrap",parentage: 80, color : "dark" },
+        { name: "Redux",parentage: 70, color : "warning" },
+        { name: "TypeScript",parentage: 80, color : "info" },
+        { name: "NodeJS",parentage: 65, color : "danger" },
+        { name: "MongoDB",parentage: 60, color : "primary" },
+        { name: "expressJS",parentage: 65, color : "success" },
+        { name: "React-Native",parentage: 50, color : "danger" },
+        { name: "Tailwind CSS",parentage: 80, color : "secondary" },
+
     ]
   return (
     <section id="skill" className="">
